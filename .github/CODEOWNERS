@@ -1,0 +1,34 @@
+# CODEOWNERS file for order-tool-812
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-ui @Armor-test/squad-product @Armor-test/squad-search
+
+# Directory ownership
+/src/ @Armor-test/squad-qa @Armor-test/grp-payments
+/components/ @Armor-test/dept-billing @Armor-test/dept-automation
+/styles/ @Armor-test/squad-cache @Armor-test/unit-governance
+/web/ @Armor-test/dept-automation @Armor-test/team-security @Armor-test/dept-billing
+/models/ @Armor-test/unit-design @Armor-test/team-frontend @Armor-test/dept-api
+/deploy/ @Armor-test/grp-integration @Armor-test/dept-security @Armor-test/squad-api
+/common/ @Armor-test/dept-billing @Armor-test/squad-product
+/tools/ @Armor-test/dept-reliability @Armor-test/squad-api @Armor-test/grp-storage
+/static/ @Armor-test/team-reporting @Armor-test/grp-search @Armor-test/dept-reporting
+/ui/ @Armor-test/unit-test @Armor-test/squad-reporting
+
+# File type ownership
+*.cs @Armor-test/dept-identity @Armor-test/squad-payments
+*.xml @Armor-test/dept-test @Armor-test/team-core
+*.go @Armor-test/team-logging @Armor-test/dept-test @Armor-test/dept-reporting
+*.swift @Armor-test/team-notifications @Armor-test/unit-test
+*.html @Armor-test/team-reporting @Armor-test/unit-design @Armor-test/dept-notifications
+*.config @Armor-test/grp-search @Armor-test/squad-apps @Armor-test/squad-ml
+*.gradle @Armor-test/squad-reporting @Armor-test/dept-data @Armor-test/dept-automation
+*.jsx @Armor-test/grp-payments @Armor-test/dept-data @Armor-test/unit-cloud
+*.yml @Armor-test/squad-payments @Armor-test/squad-cache @Armor-test/dept-release
+*.sh @Armor-test/team-core @Armor-test/dept-data
+*.json @Armor-test/squad-search @Armor-test/dept-data @Armor-test/team-security
+*.graphql @Armor-test/unit-test @Armor-test/squad-cache @Armor-test/team-security
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
